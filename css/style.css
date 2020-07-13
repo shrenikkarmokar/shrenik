@@ -1,0 +1,85 @@
+.body{
+  text-align: center;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+h4,h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+#home{
+  background-color:#222831;
+  color:white;
+}
+.container-1{
+  padding: 3% 15%;
+}
+.name{
+  padding-top: 3%;
+}
+
+.avatar-img{
+  border-radius: 50%;
+}
+
+/* ABOUT PAGE */
+
+#about{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+/* Education */
+#education{
+  background-color: #393e46;
+  color: #FFF;
+  padding: 3% 15%;
+}
+
+/* FOOTER */
+#contact  {
+  text-align: center;
+  background: #FFF;
+}
+
+
+.social-media-icon{
+  margin: 8% 0 1% 0;
+  word-spacing: 20px;
+}
+
+/*
+media query */
+
+/* FOR TABLET */
+
+@media (max-width:1024px){
+    .navigation{
+        text-align:center;
+    }
+    .school-images{
+      width: 700px;
+    }
+}
+/* FOR MEDIUM PHONE */
+
+@media (max-width:768px){
+    .navigation{
+        text-align:center;
+    }
+    .school-images{
+      width: 500px;
+    }
+}
+
+/* FOR SMALL PHONES */
+
+@media (max-width:427px){
+    .navigation{
+        text-align:center;
+    }
+    .school-images{
+      width: 300px;
+    }
+}
